@@ -21,3 +21,4 @@ set undolevels=1000       " Number of undo levels
 set mouse=a               " Enable mouse support
 filetype plugin indent on " Enable filetype-based plugins
 syntax enable             " Enable syntax highlighting
+colorscheme retrobox      " Set theme
