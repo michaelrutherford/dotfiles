@@ -18,3 +18,9 @@ grep -qxF 'export PATH="$PATH:/opt/nvim/"' ~/.bashrc || echo 'export PATH="$PATH
 
 # Clone the kickstart.nvim repo into the Neovim configuration directory
 git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+
+# Replace "folke/tokyonight.nvim" with "sainnhe/everforest"
+sed -i 's/folke\/tokyonight.nvim/sainnhe\/everforest/g' "$HOME/.config/nvim/init.lua"
+
+# Replace "tokyonight-night" with "everforest"
+sed -i 's/tokyonight-night/everforest/g' "$HOME/.config/nvim/init.lua"
