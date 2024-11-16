@@ -14,6 +14,7 @@ set smarttab              " Enable smart-tabs
 set softtabstop=4         " Number of spaces per Tab
 set ruler                 " Show row and column ruler information
 set showcmd               " Displays command being typed
+set showmode              " Displays the current mode
 set wildmenu              " Enhances command completion
 set scrolloff=5           " Lines of context around cursor
 set clipboard=unnamedplus " Use system clipboard for copy-paste
